@@ -1,0 +1,115 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
+name:
+  first: Zhouwu
+  middle:
+  last: Huang
+about: Hi, my name is Zhouwu Huang. I have more than 14 years working experience in IT area. I am a hard worker, creative, and ambitious person. Hopefully, I will be able to show my expertise when getting professional duties.
+position: Automation Test Architect
+
+birth:
+  year: 1981
+  location: Shanghai
+
+# you may add more experiences by duplicating the template
+
+experience:
+- company: ALO7 Technology Co. Ltd.
+  position: Software Development Engineer in Test Expert
+  timeperiod: December 2017 - August 2021
+  responsibilities: I was responsible for the key online teaching system development（including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
+  skills: Cloud service migration from Amazon to Ali, Java based component development, Redis cache optimization, gitlab ci/cd tools and docker images development, Jhipster Full Stack Platform.
+  awards: Got promotion twice after achieving good performance in team.
+  description: I was responsible for the key online teaching system development（including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
+
+- company: OMNI PRIME, Inc.
+  position: Automation Test Architect
+  timeperiod: October 2016 - December 2017
+  responsibilities: Worked on the Internet Finance online system(peer-to-peer lending), I was responsible for building and developing automation test strategy, framework, and tool platform. Basic services such as gateway, service registration discovery, load balancing, permissions, security, control center, dictionary, SMS platform and other modules. I have a deep understanding in micro service interface test, integration test, contract test, component test, Docker Web UI test, App cloud test and so on. 
+  skills: Python, robotframework, Vue, Docker, Jenkins, Gitlab CI Pipeline, CI/CD.
+  awards: Got promotion in six months for outstanding achievement.
+  description: Worked on the Internet Finance online system(peer-to-peer lending), I was responsible for building and developing automation test strategy, framework, and tool platform. Basic services such as gateway, service registration discovery, load balancing, permissions, security, control center, dictionary, SMS platform and other modules. I have a deep understanding in micro service interface test, integration test, contract test, component test, Docker Web UI test, App cloud test and so on. 
+
+- company: Pactera Technology Co. Ltd.
+  position: Senior Test Manager
+  timeperiod: May 2008 - October 2016
+  responsibilities: Worked on the Home and Small Business Server testing project, I was responsible for making test strategy, test plan and providing test deliveries (test cases design, test cases execution, test report, bugs submission). Test management including resource management, risk management, schedule management, stakeholder management , training and so on.
+  skills: Set up the Microsoft server and client machine, configure service components such as Exchange mail server, Azure cloud storage, and system backup and restoration. Hyper-V, E2E automated testing, etc.
+  awards: Got the excellent employee awards for 3 times, and my team was recognized as one of the top teams.
+  description: Worked on the Home and Small Business Server testing project, I was responsible for making test strategy, test plan and providing test deliveries (test cases design, test cases execution, test report, bugs submission). Test management including resource management, risk management, schedule management, stakeholder management , training and so on.
+
+- company: Augmentum, Inc.
+  position: Software Development Engineer in Test
+  timeperiod: July 2007 - May 2008
+  responsibilities: Worked on Microsoft ERP product Dynamics AX testing project, I was responsible for requirement analysis, test case high level design, test case low level design, test case review, automation scripts coding, defects submission and status track, test reports, knowledge sharing and test documents.
+  skills: C#, Dynamics AX, Microsoft test tool (WTT), Product Studio (bug managment)
+  awards:
+  description: Worked on Microsoft ERP product Dynamics AX testing project, I was responsible for requirement analysis, test case high level design, test case low level design, test case review, automation scripts coding, defects submission and status track, test reports, knowledge sharing and test documents.
+
+education:
+- degree: Bachelor of Science
+  timeperiod: September 2003 - June 2007
+  description: Major in Mathematics, South China University of Technology, Guangzhou, China.
+
+# skill level goes from 0 to 100
+skills:
+- name: Java
+  level: 99
+- name: Python
+  level: 95
+- name: JavaScript
+  level: 97
+- name: Vue
+  level: 93
+- name: Shell
+  level: 60
+- name: C#
+  level: 80
+- name: Docker
+  level: 70
+- name: RobotFramework
+  level: 99
+- name: Kubernetes
+  level: 99
+- name: NodeJS
+  level: 92
+- name: GraphQL
+  level: 99
+- name: Redis
+  level: 99
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
+
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   timeperiod: February 2016
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
+
+# optional, not all resume templates have hobbies included
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
+
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
+
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: zhouwu.huang@icloud.com
+  phone: 15900517866
+  # street: 1234 Broadway
+  # city: New York
+  # website: johndoe.com
+  # github: johnyD
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`

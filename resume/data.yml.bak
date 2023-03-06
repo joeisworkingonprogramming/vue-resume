@@ -1,0 +1,123 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
+name:
+  first: 黄周武
+  middle:
+  last: 
+about: 您好！我在软件研发领域有15年的工作经验。做过软件系统开发，测试/自动化测试，发布上线和运维。在ERP系统解决方案、桌面操作系统解决方案、互联网金融行业、互联网教育行业、传统汽车制造业信息数字化等领域有丰富的经验。我是一个对技术有狂热兴趣和追求的软件工程师，喜欢钻研和使用新技术并运用的适合的应用场景。希望能有幸和您一起共事！
+position: 全栈开发专家/系统架构师/基础技术架构师
+
+birth:
+  year: 1981
+  location: 上海
+
+# you may add more experiences by duplicating the template
+
+experience:
+- company: 华域视觉科技（汽车零部件头部国有企业）
+  position: 软件开发专家(信息部数字化开发负责人)
+  timeperiod: 2021.11 - 现在
+  responsibilities: 负责公司信息部数字化项目架构设计和前后端代码开发、上线发布和运维；性能和安全模块优化；主导DEVOPS工具链开发和持续优化；优化敏捷开发流程和规范，搭建基于gitlab的 ci/cd 工具平台(搭建gitlab runner, 容器镜像仓库，nexus 仓库)和微服务架构设计。推动公司项目前后端分离，微服务化，自动化运维。极大提升数字化系统软件开发交付能力。主要涉及项目有MES, AIPS, SCM, 泛微OA行政办公，财务一体化，电子薪资单，合理化建议，企业认证微服务，SAP Hana中间件，企业服务总线。
+  skills: 基于oauth2的sso认证技术，2地3中心容灾高可用技术，无损发布（红黑/蓝绿/金丝雀， 基于Nginx/微服务流量切换方案设计），无状态服务jwt认证技术，企业微信应用开发，企业日志服务平台技术，调用链跟踪技术，消息队列rabbitmq，大数据中台开发技术， 主数据解决方案工具平台，sprint boot/sprint cloud, vue, 阿里云，aws, 微服务容器docker, Kubernetes(k8s), gitlab ci/cd，robotframework api 自动化, web ui 自动化, app ui 自动化。
+  awards: 多次获得业务部门和公司管理团队表扬。
+  description: I was responsible for the key online teaching system development（including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
+
+- company: 爱乐奇（互联网教育企业）
+  position: 后端开发专家/测试开发专家
+  timeperiod: 2017.12 - 2021.08
+  responsibilities: 负责公司在线教育平台系统功能测试和自动化测试，性能测试框架等效能工具平台从0到1架构和开发，培训以及实施。熟悉使用Jhipster全栈开发工具脚手架生成项目代码，使用Vue框架构建测试平台前端，开发上线公司基础工具平台太乙工时填报系统，合同审批流程系统，工单技术支持系统。负责公司主营视频外教业务（排课系统，约课系统，用户问题工单反馈，老师工资系统）功能模块开发和优化，上线发布和运维。
+  skills: sprint boot/sprint cloud, vue, rabbitmq, 阿里云，aws, docker, Kubernetes(k8s), gitlab ci/cd，robotframework api 自动化, web ui 自动化, app ui 自动化。
+  awards: 2018年获得公司年度明星员工奖，2018及2020年两次获得升职。
+  description: I was responsible for the key online teaching system development（including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
+
+- company: 秦苍科技（互联网金融企业）
+  position: 技术架构师(基础架构部)
+  timeperiod: 2016.10 - 2017.12
+  responsibilities: 项目中负责基础架构部测试和自动化测试框架搭建，对基础服务如网关zuul/gateway clould，服务注册发现Eureka，负载均衡ribbon，权限，安全，统一控制中心Disconf/Apollo/Nacos，字典，短信平台，调用链等系统实现自动化测试。在测试容器化（docker），Jenkins，gitlab CI pipeline 等方面有较深的体会和积累。不断开发新的测试策略和理论，引入微服务接口测试，集成测试，契约测试，组件测试，Docker WebUI 测试，App 真机云测等测试策略。做到无需测试人员干预的 CI/CD 过程。
+  skills: Python, robotframework, Vue, Docker, Jenkins, Gitlab CI Pipeline, CI/CD.
+  awards: 代表公司参加QCom 技术大会并分享经验；在职半年内获得特批升职；
+  description: Worked on the Internet Finance online system(peer-to-peer lending), I was responsible for building and developing automation test strategy, framework, and tool platform. Basic services such as gateway, service registration discovery, load balancing, permissions, security, control center, dictionary, SMS platform and other modules. I have a deep understanding in micro service interface test, integration test, contract test, component test, Docker Web UI test, App cloud test and so on. 
+
+- company: 文思海辉（IT解决方案企业）
+  position: 高级交付经理(Home and Small Business Server)
+  timeperiod: 2008.05 - 2016.10
+  responsibilities: 对微软服务器产品测试工作进行统筹，规划，执行，及交付。干系人沟通，制定测试计划，开发及培训项目组成员，执行过程中对风险预估和规避。实施工作主要是搭建服务器与客户端机器，配置服务组件如邮件服务器 exchange，云存储 Azure，系统底层备份与还原。搭建开发虚拟机测试技术 hyper-v，E2E 自动化测试等。
+  skills: 熟悉使用和配置测试微软服务器产品如Exchange邮件服务, Azure云存储, 系统备份和还原. Hyper-V, E2E 自动化测试。
+  awards: 三次（2008，2012，2014）获得年度最佳员工称号和一次（2012）最佳团队奖。
+  description: Worked on the Home and Small Business Server testing project, I was responsible for making test strategy, test plan and providing test deliveries (test cases design, test cases execution, test report, bugs submission). Test management including resource management, risk management, schedule management, stakeholder management , training and so on.
+
+- company: 群硕软件（IT解决方案企业）
+  position: 自动化测试(dynamic AX)
+  timeperiod: 2007.07 - 2008.05
+  responsibilities: 对微软ERP系统 dynamics AX 进行需求确认，测试计划设计，测试用例设计，自动化开发，测试执行，bug 跟踪，编写测试报告，归档项目文件，知识分享及培训。
+  skills: C#, Dynamics AX, Microsoft test tool (WTT), Product Studio (bug managment)。
+  awards:
+  description: Worked on Microsoft ERP product Dynamics AX testing project, I was responsible for requirement analysis, test case high level design, test case low level design, test case review, automation scripts coding, defects submission and status track, test reports, knowledge sharing and test documents.
+
+education:
+- degree: 理学学士
+  timeperiod: 2003.09 - 2007.07
+  description: 数学与应用数学, 华南理工大学（全日制985）
+
+# skill level goes from 0 to 100
+skills:
+- name: Java
+  level: 99
+- name: Python
+  level: 95
+- name: JavaScript
+  level: 97
+- name: Vue
+  level: 93
+- name: Shell
+  level: 60
+- name: C#
+  level: 80
+- name: Docker
+  level: 70
+- name: RobotFramework
+  level: 99
+- name: Kubernetes
+  level: 99
+- name: NodeJS
+  level: 92
+- name: GraphQL
+  level: 99
+- name: Redis
+  level: 99
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
+
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   timeperiod: February 2016
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
+
+# optional, not all resume templates have hobbies included
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
+
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
+
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: zhouwu.huang@icloud.com
+  phone: 15900517866
+  # street: 1234 Broadway
+  # city: New York
+  # website: johndoe.com
+  # github: johnyD
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: cn
+`

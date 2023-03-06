@@ -2,97 +2,120 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Zhouwu
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Huang
+about:   Hello! I have sixteen years of experience in software development. I have extensive experience in ERP system solutions, desktop operating system solutions, internet financial industry, internet education industry, traditional automobile manufacturing information digitalization. I am an enthusiastic software engineer passionate about technology, and I enjoy delving into and using new technologies and applying them to appropriate scenarios. I hope to have the honor of working with you!
+position: Full Stack Software Development
 
 birth:
   year: 1990
-  location: New York
+  location: Shanghai
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: HASCO Vision Technology (Shanghai) Co., Ltd.
+  position: Head of Digital Development Department
+  timeperiod: November 2021 - Now
+  responsibilities: I was responsible for the digital project architecture design and front-end and back-end code development, online release and operation and maintenance; optimize performance and security modules; take the lead in the development and continuous optimization of DevOps tool chain; optimize agile development process and standards, build CI/CD tool platform based on GitLab (build GitLab Runner, container image repository, Nexus repository) and micro-service architecture design; promote the separation of front and back end of the company's projects, micro-service, automation operation and maintenance, to greatly enhance the delivery capacity of digital system software. The projects mainly involve MES, AIPS, SCM, Weiw OA administrative office, financial integration, electronic salary list, rationalization proposals, enterprise certification micro-services, SAP Hana middleware, enterprise service bus, etc.
+  skills: Oauth2-based SSO authentication technology, two-site three-center disaster recovery high availability technology, zero-loss release (Red-Black/Blue-Green/Canary, Nginx/Microservice traffic switching scheme design), stateless service JWT authentication technology, enterprise WeChat application development, enterprise log service platform technology, call chain tracking technology, message queue RabbitMQ, big data platform development technology, master data solution tool platform, Spring Boot/Spring Cloud, Vue.js, Alibaba Cloud, AWS, microservice container Docker, Kubernetes (K8s), GitLab CI/CD, Robot Framework API automation, web UI automation, and app UI automation.
+  awards: I have been repeatedly praised by both the business department and the company management team.
+  description: I was responsible for the key online teaching system development (including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Shanghai ALO7 Technology Co., Ltd.
+  position: Software Development Expert
+  timeperiod: December 2017 - August 2021
+  responsibilities: I was responsible for the key online teaching system development (including scheduling courses, managing user problem tickets, and creating teacher payment modules) and the Automation Platform (to support online time sheeting, contract approval, IT help desk, and automation testing processes). I communicated with the BA team to understand their business requirements, took ownership of all outstanding deliverables (designing solutions, coding, testing, and creating technical documents), and researched advanced technologies to discover the best practices and then drove those best practices within the team.
+  skills: Cloud service migration from Amazon to Alibaba, Java-based component development, Redis cache optimization, GitLab CI/CD tools, and Docker image development, and JHipster full-stack platform.
+  awards: I got promoted twice after achieving good performance within the team.
+  description: I was responsible for the key online teaching system development (including scheduling course , user problem ticket management, teacher payment modules) and Automation Platform(to support online Time sheet, contract approval, IT help desk and automation test process) . Communicated with BA team to understand the business requirements, took ownership of outstanding deliverable (design solutions, code construction, test and technical documents). Researched advanced technology regarding best practice and drove best practice within the team.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Omni Prime Inc.
+  position: Automation Testing Architect
+  timeperiod: October 2016 - December 2017
+  responsibilities: I Worked on the Internet Finance online system (peer-to-peer lending), I was responsible for building and developing an automation test strategy, framework, and tool platform. I worked on basic services such as gateways, service registration discovery, load-balancing, permissions, security, control center, dictionary, SMS platform, and other modules. I have a deep understanding of microservice interface testing, integration testing, contract testing, component testing, Docker web UI testing, App Cloud testing, and more.
+  skills: Python, Robot Framework, Vue.js, Docker, Jenkins, GitLab CI/CD Pipeline, CI/CD.
+  awards: I got a promotion in six months for my outstanding achievement.
+  description: Worked on the Internet Finance online system(peer-to-peer lending), I was responsible for building and developing automation test strategy, framework, and tool platform. Basic services such as gateway, service registration discovery, load balancing, permissions, security, control center, dictionary, SMS platform and other modules. I have a deep understanding in micro service interface test, integration test, contract test, component test, Docker Web UI test, App cloud test and so on. 
+
+- company: Pactera Technology Co. Ltd.
+  position: Senior Delivery Manager
+  timeperiod: May 2008 - October 2016
+  responsibilities: I worked on the Home and Small Business Server testing project, where I was responsible for creating a test strategy, a test plan, and delivering tests such as designing test cases, executing tests, making test reports, and submitting bugs. Test management included managing resources, risks, schedules, stakeholders, training, and more.
+  skills: Set up the Microsoft server and client machines, configure service components such as Exchange mail server, Azure cloud storage, Hyper-V, system backup and restoration, and end-to-end automated testing.
+  awards: I received the Excellent Employee Award three times, and my team was recognized as one of the top teams.
+  description: Worked on the Home and Small Business Server testing project, I was responsible for making test strategy, test plan and providing test deliveries (test cases design, test cases execution, test report, bugs submission). Test management including resource management, risk management, schedule management, stakeholder management , training and so on.
+
+- company: Augmentum, Inc.
+  position: Software Development Engineer in Test
+  timeperiod: July 2007 - May 2008
+  responsibilities: I worked on a Microsoft ERP product, Dynamics AX testing project, where I was responsible for requirement analysis, high-level and low-level design of test cases, review of test cases, coding of automation scripts, submission and tracking of defects, preparation of test reports, knowledge sharing, and documentation of test cases.
+  skills: C#, Dynamics AX, Microsoft Test Tool (MTT), Product Studio (bug management)
+  awards:
+  description: Worked on Microsoft ERP product Dynamics AX testing project, I was responsible for requirement analysis, test case high level design, test case low level design, test case review, automation scripts coding, defects submission and status track, test reports, knowledge sharing and test documents.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Science (Mathematics)
+  timeperiod: September 2003 - June 2007
+  description: South China University of Technolog (Project 985 elite university)
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
+- name: Java
   level: 99
-- name: CSS3
+- name: Python
   level: 95
 - name: JavaScript
   level: 97
-- name: Node.js
+- name: Vue
   level: 93
-- name: Angular 2
+- name: Shell
   level: 60
-- name: TypeScript
+- name: C#
   level: 80
-- name: ES.Next
-  level: 70
 - name: Docker
+  level: 70
+- name: RobotFramework
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Kubernetes
+  level: 99
+- name: NodeJS
+  level: 92
+- name: GraphQL
+  level: 99
+- name: Redis
+  level: 99
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   timeperiod: February 2016
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 # optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: huangzhouwu@gmail.com
+  phone: 15900517866
+  # street: 1234 Broadway
+  # city: New York
+  # website: johndoe.com
+  # github: johnyD
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

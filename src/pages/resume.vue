@@ -46,5 +46,6 @@ export default Vue.component("resume", {
   display: block;
   page-break-after: auto;
   overflow: hidden;
+  margin: 0 auto;
 }
 </style>
